@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,100,0.5)),url(background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.welcome
+{
+    position:relative;
+    text-align:center;
+    font-family:monospace;
+    color:#fff;
+    top:220px;
+}
+
+.welcome h1
+{
+    font-size:42 px;
+    margin: 25 px;
+}
+
+.welcome h4
+{
+    font-size:16px;
+    margin:1px;
+}
+
+.btn 
+{
+    font-size:12px;
+    letter-spacing: 2px;
+    margin:5px;
+    padding:5px 10px;
+    text-decoration:none;
+    border:1px solid #fff
+}
+
+.btn1
+{
+    color: #fff;
+}
+
+.btn1:hover
+{
+    background:#fff;
+    color:#000;
+    transition:0.4s
+}
+
+.btn2
+{
+    color:#fff;
+}
+
+.btn2:hover
+{
+    background:#fff;
+    color:#000;
+    transition:0.4s
+}
+
+img
+{
+    object-position: :center;
+    width: 600px;
+}
+
+
